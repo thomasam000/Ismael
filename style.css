@@ -1,0 +1,51 @@
+.font {
+  font-family: cursive;
+  background-image: linear-gradient(to right, rgb(220,220,220) 0%, white 20% 80%, rgb(220,220,220) 100%);
+}
+.title {
+  font-size: 33px;
+}
+
+.main-nav {
+  color:grey;
+}
+.main-nav a {
+  color: darkgrey;
+}
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.carousel-indicators li {
+      height:10px !important;
+width:10px !important;
+    border-radius: 50%;
+  top:10px;
+}
+.carousel-item {
+height: 250px;
+
+}
+
+.carousel {
+  height: 50%;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 10px, 0px black;
+}
+#bio {
+  margin:auto;
+  width:70%;
+  height:1000px;
+  text-align: center;
+  padding: 20px;
+}
+ button {
+  background-color: white;
+  border: 1px solid lightgrey !important;
+  font-weight: bold !important;
+  margin:20px 10px !important;
+}
+ button:hover {
+  background-color: rgb(200, 200, 200, .5)
+}
