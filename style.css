@@ -28,6 +28,7 @@ width:10px !important;
   width: 100%;
   margin: 0 auto;
   box-shadow: 10px, 0px black;
+  max-width: 800px;
 }
 .slideshow {
 margin:auto;
@@ -38,6 +39,7 @@ margin: auto;
 
 }
 #bio {
+  max-width: 500px;
   margin:auto;
   width:70%;
   text-align: center;
