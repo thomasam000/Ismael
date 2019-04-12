@@ -1,16 +1,13 @@
 .font {
   font-family: cursive;
-  background-image: linear-gradient(to right, rgb(220,220,220) 0%, white 20% 80%, rgb(220,220,220) 100%);
+  background-image: linear-gradient(to right, rgb(240,240,240) 0%, white 20% 80%, rgb(240,240,240) 100%);
+  font-size: 1.2em;
 }
 .title {
   font-size: 33px;
 }
-
-.main-nav {
-  color:grey;
-}
-.main-nav a {
-  color: darkgrey;
+.space {
+  margin-top:90px
 }
 .btn:focus, .btn:active {
   outline: none !important;
@@ -22,9 +19,8 @@ width:10px !important;
     border-radius: 50%;
   top:10px;
 }
-.carousel-item {
-height: 250px;
-
+.imgs {
+  width:100%;
 }
 
 .carousel {
@@ -33,10 +29,17 @@ height: 250px;
   margin: 0 auto;
   box-shadow: 10px, 0px black;
 }
+.slideshow {
+margin:auto;
+}
+#about {
+width: 80%;
+margin: auto;
+
+}
 #bio {
   margin:auto;
   width:70%;
-  height:1000px;
   text-align: center;
   padding: 20px;
 }
@@ -48,4 +51,31 @@ height: 250px;
 }
  button:hover {
   background-color: rgb(200, 200, 200, .5)
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+background-color: rgba(0, 0, 0);
+color:black;
+}
+
+@media (min-width: 1200px){
+nav li {
+  font-size: 1.25em;
+}
+.space {
+  margin-top:150px;
+}
+}
+@media (max-width: 768px){
+nav li {
+  border-top:1px solid rgb(220, 220, 220);
+  padding-left: 10px;
+  }
+
+}
+
+nav li:hover {
+  background-color:rgb(220, 220, 220);
+  color:black;
+}
 }

@@ -8,39 +8,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<style>
-  @media (max-width: 768px){
-  nav li {
-    border-top:1px solid rgb(220, 220, 220);
-    
-  }
-}
-  nav li:hover {
-    background-color:rgb(220, 220, 220);
-  }
-</style>
     <title>Ismael</title>
   </head>
-  <body class="font">
-    <header>
-      <nav class="navbar navbar-expand-md navbar-light bg-light main-nav ">
+
+  <body>
+    <header class="font sticky-top">
+      <nav class="navbar navbar-expand-md navbar-light bg-light main-nav sticky-top">
         <span class="navbar-text mr-auto title">Ismael Villalobos</span>
         <button class="btn shadow-none navbar-toggler" data-toggle="collapse" data-target="#collapses">
           <span >&#9776;</span>
         </button>
         <div class="collapse navbar-collapse" id="collapses">
-        <ul class="navbar-nav ml-auto" >
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
         </div>
@@ -49,22 +39,23 @@
 
 
     <main>
-      <div id="carousel" class="carousel slide " data-ride="carousel" height="500px">
+      <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" style="padding:0;">
+      <div id="carousel" class="carousel slide " data-ride="carousel" height="500px" >
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
 
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="">
           <div class="carousel-item active">
-            <img src="images/bath.jpeg" alt="" class="d-block w-100 carouselimg">
+            <img src="http://via.placeholder.com/3500x1500" class="mx-auto d-block imgs">
           </div>
           <div class="carousel-item ">
-            <img src="images/kitchen.jpeg" alt="" class="d-block w-100 carouselimg">
+            <img src="http://via.placeholder.com/3500x1500" class="mx-auto d-block imgs">
           </div>
           <div class="carousel-item ">
-            <img src="images/other.jpeg" alt="" class="d-block w-100 carouselimg">
+            <img src="http://via.placeholder.com/3500x1500" class="mx-auto d-block imgs">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -76,11 +67,10 @@
            <span class="sr-only">Next</span>
          </a>
       </div>
-
-
+</div>
             <article id="bio">
-              <button class="btn shadow-none" ">
-               <a href="#">Gallery</a>
+              <button class="btn shadow-none" >
+               <a href="gallery.html">Gallery</a>
                </button>
                <br>
 
@@ -91,17 +81,20 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur reprehenderit maiores sint sit laboriosam porro possimus optio harum, ullam officiis quisquam pariatur quam, esse eligendi similique, quae neque adipisci.
               </p>
               <button class="btn shadow-none">
-                <a href="#">About</a>
+                <a href="about.html">About</a>
               </button>
-               <button class="btn shadow-none" ">
+               <button class="btn shadow-none" >
                 <a href="#">Contact</a>
                 </button>
             </article>
 
 
     </main>
-    <footer>
+      <footer class="page-footer font-small blue ">
 
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
 
     </footer>
   </body>
