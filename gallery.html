@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Ismael</title>
+    <style>
+      .img {
+        margin-top: 15px;
+      }
+    </style>
   </head>
 <body>
   <main>
@@ -30,7 +35,7 @@
             <a class="nav-link" href="#">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
         </div>
@@ -49,8 +54,52 @@
         <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Others</a>
       </li>
     </ul>
+
+
+
     <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">pictures of kitchens</div>
+      <div class="tab-pane fade show active container" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
+
+          <div class="col-6 col-md-4 col-lg-3">
+	          <a data-target="#modalIMG" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+              <img src="http://via.placeholder.com/2000x2000"  class="img-fluid img ">
+		       	</a>
+		      </div>
+
+          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1" >
+        	  <div class="modal-dialog modal-xl" role="document" style="padding:10px 30px 10px 10px;">
+            	<div class="modal-content" >
+           			<div class="modal-body mb-0 p-0">
+            			<img src="http://via.placeholder.com/2000x2500" alt="" style="width:105%;">
+                  <div style="background-color:rgb(255, 255, 255, .5); position:absolute; top:0; width:105%;">
+                  <span style="margin:10px; display:inline-block;">image title</span>
+                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" style="float:right; margin:5px !important;" type="button">X</button>
+                </div>
+            		</div>
+        		  </div>
+        	  </div>
+          </div>
+
+
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <img src="http://via.placeholder.com/2000x2000" class="img-fluid img ">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img src="http://via.placeholder.com/300x300" class="img-fluid img">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img src="http://via.placeholder.com/2000x2000" class="img-fluid img">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img src="http://via.placeholder.com/2000x2000" class="img-fluid img">
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img src="http://via.placeholder.com/2000x2000" class="img-fluid img">
+          </div>
+        </div>
+      </div>
       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">pitcures of bathrooms</div>
       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">other pictures</div>
     </div>

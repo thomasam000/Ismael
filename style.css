@@ -28,7 +28,7 @@ width:10px !important;
   width: 100%;
   margin: 0 auto;
   box-shadow: 10px, 0px black;
-  max-width: 800px;
+  max-width: 768px;
 }
 .slideshow {
 margin:auto;
@@ -68,7 +68,7 @@ nav li {
   margin-top:150px;
 }
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 nav li {
   border-top:1px solid rgb(220, 220, 220);
   padding-left: 10px;
