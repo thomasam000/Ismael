@@ -6,23 +6,18 @@
  position: relative;
  padding-bottom: 100px; /* height of your footer */
 }
-
-
-
-
-
-.font {
-  font-family: cursive;
-  background-image: linear-gradient(to right, rgb(240,240,240) 0%, white 20% 80%, rgb(240,240,240) 100%);
-  font-size: 1.2em;
-}
-
 .foot {
   position: absolute;
   width:100%;
   margin:auto;
   bottom:0px;
 }
+.font {
+  font-family: cursive;
+  background-image: linear-gradient(to right, rgb(240,240,240) 0%, white 20% 80%, rgb(240,240,240) 100%);
+  font-size: 1.2em;
+}
+
 .title {
   font-size: 33px;
 }
@@ -33,12 +28,7 @@
   outline: none !important;
   box-shadow: none !important;
 }
-.carousel-indicators li {
-      height:10px !important;
-width:10px !important;
-    border-radius: 50%;
-  top:10px;
-}
+
 .imgs {
   width:100%;
 }
@@ -50,9 +40,17 @@ width:10px !important;
   box-shadow: 10px, 0px black;
   max-width: 768px;
 }
+.carousel-indicators li {
+      height:10px !important;
+width:10px !important;
+    border-radius: 50%;
+  top:10px;
+}
+
 .slideshow {
 margin:auto;
 }
+
 #about {
 width:70%;
 margin: 20px auto;
@@ -74,11 +72,6 @@ max-width: 500px;
 }
 
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-background-color: rgba(0, 0, 0);
-color:black;
-}
-
 @media (min-width: 1200px){
 nav li {
   font-size: 1.1em;
@@ -87,6 +80,7 @@ nav li {
   margin-top:150px;
 }
 }
+
 @media (max-width: 767px){
 nav li {
   border-top:.5px solid rgb(220, 220, 220, .8);
