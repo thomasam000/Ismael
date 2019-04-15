@@ -72,9 +72,7 @@ max-width: 500px;
   font-weight: bold !important;
   margin:20px 10px !important;
 }
- button:hover {
-  background-color: rgb(200, 200, 200, .5)
-}
+
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
 background-color: rgba(0, 0, 0);
@@ -94,11 +92,26 @@ nav li {
   border-top:.5px solid rgb(220, 220, 220, .8);
   padding-left: 10px;
   }
-
+button:active {
+  background-color: rgb(200, 200, 200, .5);
 }
-
-nav li:hover {
+nav li:active {
   background-color:rgb(220, 220, 220);
   color:black;
 }
+}
+
+
+@media (min-width: 768px) {
+  button:hover {
+   background-color: rgb(200, 200, 200, .5)
+ }
+ nav li {
+   border-radius:5px;
+ }
+ nav li:hover {
+   background-color:rgb(220, 220, 220);
+   color:black;
+ }
+ }
 }
